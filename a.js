@@ -1,7 +1,11 @@
-let price = [250, 300, 350, 400, 450, 500];
-for (let i = 0; i < price.length; i++) {
-   let discount = 0.1 * price[i];
-   let discountedPrice = price[i] - discount;
-   console.log('the discount price is', discountedPrice);
+let companies = ["Google", "Microsoft", "Apple", "Amazon", "Facebook", "Netflix", "Tesla", "IBM", "Intel"];
+console.log(companies);
 
-}
+// companies.shift(); // Remove the first element
+// console.log(companies); // ["Microsoft", "Apple", "Amazon", "Facebook", "Netflix", "Tesla", "IBM", "Intel"]
+
+// companies.splice(2, 2, "Net","Inter");
+// console.log(companies); // Remove the third element (index 2)
+
+companies.push("Tiktok");
+console.log(companies); // Add "Tiktok" to the end of the array
